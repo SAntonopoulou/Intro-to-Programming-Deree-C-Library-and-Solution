@@ -1,0 +1,13 @@
+double do_exponent(double, int);
+short is_space(char);
+short is_digit(char);
+size_t str_len(char*);
+short alpha_to_int(char);
+double str_to_double(char*, char**);
+unsigned long long int str_to_int(char*);
+short verify_double(char*, double*);
+short verify_integer(char*, unsigned long long int*);
+void str_copy(char*, char*);
+char* safely_get_input();
+double safely_get_double(char*); 
+int safely_get_int(char*);
